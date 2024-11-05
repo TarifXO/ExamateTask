@@ -12,13 +12,13 @@ This project is designed to:
 ## Features
 
 -Jetpack Compose: used it for the ui of this app as required.
--DataStore: used it to make sure that the tutorial isn't shown again if skipped.
+-DataStore: used it to make sure that the tutorial isn't shown again after the first launch of the app.
 
 - **Bottom Navigation with Five Tabs**: Provides seamless navigation across different sections, with tabs labeled as Home, Connect, Questions, Tools, and Profile.
 - **Step-by-Step Tooltip Tutorial Overlay**: Guides users through various app sections, highlighting key elements such as:
   - Navigation tabs.
 - **GridView Layout**: In the Questions tab, a grid view with dummy data is used.
-- **Tooltip Dismissal**: Users can skip or dismiss the tutorial, which only appears upon the first launch if skipped.
+- **Tooltip Dismissal**: Users can skip or dismiss the tutorial, which only appears upon the first launch of the app.
 
 ## Screens
 

@@ -17,6 +17,8 @@ class TutorialViewModel(private val dataStoreManager: DataStoreManager) : ViewMo
             dataStoreManager.tutorialShown.collect { shown ->
                 if (!shown) {
                     _currentStep.value = 1
+                    // Set the tutorial shown flag to true as soon as the tutorial starts
+                    dataStoreManager.setTutorialShown(true)
                 }
             }
         }
