@@ -1,4 +1,4 @@
-# Jetpack Compose Tutorial Application with Tooltip Simulation
+# Jetpack Compose Tutorial Application
 
 This is an Android application built using Jetpack Compose, focusing on implementing a step-by-step tooltip tutorial overlay. The application simulates a basic navigation setup with five tabs, each leading to different dummy content screens, while guiding users through an interactive tutorial.
 
